@@ -6,7 +6,7 @@
 #include "base.h"
 #include <stdio.h>
 
-success copy_ROM(FILE *ROM);
+success load_ROM(FILE *ROM);
 byte fetch(size_t address);
 
 #endif

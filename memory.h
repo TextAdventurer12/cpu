@@ -5,13 +5,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MEM_SIZE   0x1000000 // size in bytes
-#define STACK_SIZE 0x020000 // size in qwords
+#define MEM_SIZE   0x100000000 // size in dwords
+#define STACK_SIZE 0x4000000 // size in dwords
 
 dword set_MAR(dword);
 dword write(dword);
 dword read(void);
-
 
 dword stack_pop(void);
 dword stack_peep(void);
